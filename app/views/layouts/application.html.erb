@@ -6,27 +6,14 @@
   = javascript_include_tag 'application', 'data-turbolinks-track' => true
   = csrf_meta_tags
 %body
-  %p.notice= notice
-  %p.alert= alert
+  %header.main_header
+    #logo
+        %p Forum dos Tronos
+    #buttons
+        =link_to "New Post", new_post_path
+  .wrapper
+    %p.notice= notice
+    %p.alert= alert
 
-  
-
-</body>
-
-<!DOCTYPE html>
-<html>
-<head>
-  <title>ForumDosTronos</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-
-  <p class="notice"><%= notice %></p>
-  <p class="alert"><%= alert %></p>
-
-<%= yield %>
-
-</body>
-</html>
+  .wrapper
+    = yield

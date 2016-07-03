@@ -1,28 +1,7 @@
-== README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+{<img src="https://codeclimate.com/repos/57798ec5ccd8ab190400424f/badges/cd08e3ffb603a74a585c/gpa.svg" />}[https://codeclimate.com/repos/57798ec5ccd8ab190400424f/feed] {<img src="https://codeclimate.com/repos/57798ec5ccd8ab190400424f/badges/cd08e3ffb603a74a585c/coverage.svg" />}[https://codeclimate.com/repos/57798ec5ccd8ab190400424f/coverage] {<img src="https://codeclimate.com/repos/57798ec5ccd8ab190400424f/badges/cd08e3ffb603a74a585c/issue_count.svg" />}[https://codeclimate.com/repos/57798ec5ccd8ab190400424f/feed]
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+== Forum dos tronos
+
+Um forum para falar sobre Game of thrones
+

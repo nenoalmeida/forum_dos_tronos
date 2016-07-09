@@ -3,5 +3,5 @@
 
 == Forum dos tronos
 
-Um forum para falar sobre Game of thrones
+* Um forum para falar sobre Game of thrones
 

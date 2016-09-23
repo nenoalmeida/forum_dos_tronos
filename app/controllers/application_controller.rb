@@ -1,6 +1,14 @@
-class ApplicationController < ActionController::Base
-  # Prevent CSRF attacks by raising an exception.
-  # For APIs, you may want to use :null_session instead.
-  protect_from_forgery with: :exception
-  before_action :authenticate_user!
+class CallbacksController < Devise::OmniauthCallbacksController
+  def facebook
+    @user = User.from_omniauth(request.env["omniauth.auth"])
+    if @user.persisted?
+      sign_in_and_redirect @user, :event => :authentication
+    else
+    redirect_to new_user_registration_url
+    end
+  end
+ 
+  def failure
+    redirect_to root_path
+  end
 end
